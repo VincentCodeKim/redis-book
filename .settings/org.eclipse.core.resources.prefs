@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
-encoding//src/java/net/sf/redisbook/JedisHelper.java=UTF-8
 encoding//src/java/net/sf/redisbook/ShardedJedisHelper.java=UTF-8
 encoding//src/java/net/sf/redisbook/ch7/redislogger/KeyMakerForLogger.java=UTF-8
 encoding//src/java/net/sf/redisbook/ch7/uniquevisit/UniqueVisit.java=UTF-8

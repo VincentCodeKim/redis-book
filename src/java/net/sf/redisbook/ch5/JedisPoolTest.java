@@ -20,7 +20,7 @@ public class JedisPoolTest {
 		config.whenExhaustedAction = GenericObjectPool.WHEN_EXHAUSTED_BLOCK;
 
 		// create jedis pool for redis server running on 192.168.56.102
-		JedisPool pool = new JedisPool(config, "192.168.56.102", 6379);
+		JedisPool pool = new JedisPool(config, "localhost", 6379);
 		
 		// get the first jedis connection from jedis pool
 		Jedis firstClient = pool.getResource();
